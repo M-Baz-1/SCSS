@@ -1,0 +1,25 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  background-color: red;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 75%;
+  background-color: blue;
+}
+/*# sourceMappingURL=styles.css.map */

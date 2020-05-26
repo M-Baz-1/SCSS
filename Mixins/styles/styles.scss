@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+@mixin shapes ($size, $color, $radius){
+
+    height: $size;
+    width: $size;
+    border-radius: $radius;
+    background-color: $color;
+
+}
+body{
+    display: flex;
+}  
+
+.box{
+    @include shapes(100px, red, 20%)
+}
+
+.box2{
+    @include shapes(100px,blue , 75%)
+}

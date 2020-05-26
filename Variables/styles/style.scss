@@ -1,0 +1,18 @@
+$boxColor: red;
+$headBackG: green;
+$bodyC:blue;
+$size:200px;
+$fontCol:white;
+
+body {
+    background-color: $bodyC;
+
+
+}
+.box {
+
+    height: $size;
+    width: $size;
+    background-color:  $boxColor;
+    
+}

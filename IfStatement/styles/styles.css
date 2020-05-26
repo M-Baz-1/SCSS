@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Butcherman|Fascinate&display=swap");
+h1 {
+  font-size: 60px;
+  color: blue;
+  font-family: 'Fascinate', cursive;
+  text-align: center;
+  border: solid 1px red;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,11 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+
+$colours: (blue:blue, black:black, red:red);
+
+@each $name, $Col in $colours{
+    .#{$name}-bg{background-color: $Col;}
+
+}

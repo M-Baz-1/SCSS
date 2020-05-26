@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Butcherman|Fascinate&display=swap');
+@mixin font ($font, $fcolor){
+   font-size: $font ;
+   color:$fcolor;
+   @if $font == 20{
+       font-family: 'Butcherman', cursive;
+   } @else{
+       font-family: 'Fascinate', cursive;
+   }
+}
+h1{
+   @include font(60px, blue );
+  
+   text-align: center;
+   border: solid 1px red;
+}
